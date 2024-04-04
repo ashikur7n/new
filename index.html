@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tampering Detector: image forensics, fake photo detection - </title>
+    <style>
+        .brand {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #0bb224; 
+            padding: 10px 20px;
+            clip-path: polygon(0 0, 0% 100%, 300% 0);
+        }
+
+        .brand a {
+            color: white;
+            text-decoration: none;
+        }
+        .orange-bg {
+            background-color: #0bb224;
+        }
+
+       
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a href="/" class="navbar-brand">Image Tampering Detection</a>
+        </div>
+    </header>
+    <section id="featured" class="mainpage bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4">Image Tampering <span style="color: #0bb224;">Detector</span></h1>
+                    <ul class="list-unstyled">
+                        <li>Detects digitally edited photos</li>
+                        <li>Identifies altered (forged) parts in photos</li>
+                        <li>Provides an accurate Forgery Score</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="mainpage text-white orange-bg py-5;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="lead"><img src="" /><br />How can we trust documents and <br />images received?</p>
+                    <p class="lead"><img src="" /><br />Are they authentic<br /> or edited?</p>
+                    <p class="lead"><img src="" /><br />Have we received <br />an original image or a fake?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="imageSelection" class="bg-dark py-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <p class="text-white mb-4 display-6">Image Tampering Detection helps answer these questions</p>
+                    <p class="text-white mb-4 lead">Select an Image for Detecting Tampering</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="imageInput" class="text-white">Choose Image:</label> 
+                            <input type="file" class="form-control-file text-white" id="imageInput">
+                            <button type="submit" class="orange-bg mt-2">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+</body>
+</html>
